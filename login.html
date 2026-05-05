@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Admin Login - Barangay System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="topbar">Barangay Waste Issue Reporting and Management System</div>
+
+    <div class="navbar">
+        <div class="logo">Barangay Waste System</div>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="schedule.html">View Schedule</a>
+            <a href="login.html">Admin</a>
+        </div>
+        <a href="resident.html" class="btn-nav">Submit Report</a>
+    </div>
+
+    <div class="report-card" style="max-width: 400px; margin-top: 100px;">
+        <h2 style="text-align: center;">Admin Login</h2>
+        <p style="text-align: center; color: #666;">Please enter your credentials to access the panel.</p>
+
+        <form action="admin.html">
+            <div class="form-group">
+                <label>Username</label>
+                <input type="text" placeholder="Enter username" pattern="admin" title="incorrect username" required>
+            </div>
+
+            <div class="form-group">
+                <label>Password</label>
+                <input type="password" placeholder="Enter password" pattern="admin123" title="incorrect password"
+                    required>
+            </div>
+
+            <button type="submit" style="width: 100%;">Login</button>
+        </form>
+        </div>
+        <footer>Barangay Waste Reporting System &copy; 2026</footer>
+</body>
+
+</html>

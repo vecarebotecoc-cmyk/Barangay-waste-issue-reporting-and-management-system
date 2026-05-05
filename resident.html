@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Submit Report</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="topbar">Barangay Waste Issue Reporting and Management System</div>
+    <div class="navbar">
+        <div class="logo">Barangay Waste System</div>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="schedule.html">View Schedule</a>
+            <a href="login.html">Admin</a>
+        </div>
+        <a href="resident.html" class="btn-nav">Submit Report</a>
+    </div>
+
+    <div class="report-card">
+        <h2>Resident Portal</h2>
+        <p>Report a waste-related issue in your area.</p>
+        <form action="schedule.html">
+            <div class="form-group">
+                <label>Enter Location</label>
+                <input type="text" placeholder="Street name / Landmark" required>
+            </div>
+            <div class="form-group">
+                <label>Enter Problem</label>
+                <textarea placeholder="e.g. Uncollected garbage" required></textarea>
+            </div>
+            <button type="submit" class="btn-submit">Confirm Report</button>
+        </form>
+    </div>
+    <footer>Barangay Waste Reporting System &copy; 2026</footer>
+</body>
+</html>

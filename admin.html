@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Admin Control Panel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="topbar">Barangay Waste Issue Reporting and Management System</div>
+    
+    <div class="navbar">
+        <div class="logo">Barangay Waste System</div>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="schedule.html">View Schedule</a>
+            <a href="login.html">Logout</a> </div>
+        <a href="resident.html" class="btn-nav">Submit Report</a>
+    </div>
+
+    <div class="container" style="max-width: 1000px; margin: 40px auto; padding: 20px;">
+        <div class="report-card" style="max-width: 100%;">
+            <h2>Admin Control Panel</h2>
+            <p>Review and resolve submitted waste reports.</p>
+
+            <div class="report-item">
+                <div>
+                    <strong>ID: 1</strong> | <strong>Location:</strong> Rizal Street | <strong>Problem:</strong> Uncollected Garbage
+                    <br>
+                    <strong>Reported On:</strong> 2026-04-06 | <strong>Scheduled On:</strong> Not yet scheduled
+                </div>
+                <span class="status-badge pending">Status: Pending</span>
+            </div>
+
+            <div style="margin-top: 30px; padding-top: 20px; border-top: 1px solid #eee;">
+                <h4>Update Report Status</h4>
+                <div style="display: flex; flex-direction: column; gap: 10px;">
+                    <input type="text" placeholder="Enter Report ID (e.g. 1)" style="padding: 12px; border: 1px solid #ddd;">
+                    <input type="text" placeholder="Enter Schedule Date (YYYY-MM-DD HH:MM)" style="padding: 12px; border: 1px solid #ddd;">
+                    <input type="text" placeholder="Mark as Resolved? (yes/no)" style="padding: 12px; border: 1px solid #ddd;">
+                    
+                    <button type="submit" class="btn-submit">Update Status</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>Barangay Waste Reporting System &copy; 2026</footer>
+</body>
+</html>
